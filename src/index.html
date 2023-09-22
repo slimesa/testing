@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Newton's Enterprise</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <!--Header-->
+    <header class="bg-blue-700 text-white py-6 px-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold">Newton's Touch</a>
+    
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex space-x-4">
+                <a href="index.html" class="hover:text-gray-300 transition duration-300">Home</a>
+                <a href="#services" class="hover:text-gray-300 transition duration-300">Services</a>
+                <a href="product.html" class="hover:text-gray-300 transition duration-300">Products</a>
+                <a href="about.html" class="hover:text-gray-300 transition duration-300">About Us</a>
+                <a href="contactus.html" class="hover:text-gray-300 transition duration-300">Contact Us</a>
+            </nav>
+    
+            <!-- Mobile Menu Toggle Button (Hidden on larger screens) -->
+            <div class="md:hidden">
+                <button id="mobile-menu-toggle" class="text-2xl focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!--Hero section-->
+    <section class="bg-blue-900 text-white h-screen flex items-center justify-center">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold mb-4">Welcome to Newton's Touch</h1>
+            <p class="text-lg mb-8">Your one-stop solution for computer sales and repairs, we pride our selfs in our services</p>
+            <a href="contactus.html" class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 px-6 rounded-full transition duration-300">Contact Us</a>
+        </div>
+    </section>
+    
+    <!--About Us-->
+    <section class="bg-gray-100 py-16 px-10">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Text Content -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">About Newton's Enterprise</h2>
+                    <p class="text-gray-700 mb-6">At Newton's Enterprise, we are dedicated to providing top-notch solutions for all your computer needs. With a passion for technology and a commitment to excellence, we specialize in both computer sales and repairs.</p>
+                    <p class="text-gray-700 mb-6">Our mission is to offer high-quality products and expert repair services that cater to both personal and business requirements. With years of experience in the industry, we have gained extensive knowledge in the world of computers, enabling us to deliver superior solutions.</p>
+                    <p class="text-gray-700">Whether you're in need of a new computer or seeking prompt and reliable repairs, Newton's Enterprise is your trusted partner. Join us in embracing technology's potential and experience seamless computing.</p>
+                </div>
+    
+                <!-- Image -->
+                <div class="text-center">
+                    <img src="../images/pexels-christina-morillo-1181438.jpg" alt="About Us" class="mx-auto w-full h-full mb-6">
+                    <p class="text-gray-700">Our Team</p>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <!--Our Services-->
+    <section class="py-16" id="services">
+        <div class="container mx-auto flex flex-wrap justify-center">
+            <!-- Service 1 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg mx-4 mb-8 max-w-sm">
+                <h3 class="text-xl font-bold mb-4"><b>Computer Sales</b></h3>
+                <p class="text-gray-700 mb-6">Explore a wide range of high-quality computers and accessories to suit your business or personal needs.</p>
+                <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+            </div>
+    
+            <!-- Service 2 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg mx-4 mb-8 max-w-sm">
+                <h3 class="text-xl font-bold mb-4">Computer Repairs</h3>
+                <p class="text-gray-700 mb-6">Our skilled technicians diagnose and repair hardware and software issues to get your systems running smoothly.</p>
+                <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+            </div>
+    
+            <!-- Service 3 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg mx-4 mb-8 max-w-sm">
+                <h3 class="text-xl font-bold mb-4">IT Support</h3>
+                <p class="text-gray-700 mb-6">Get reliable IT support and troubleshooting services to ensure your business operations run without interruptions.</p>
+                <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--Featured products section-->
+<section class="flex flex-col mt-16 mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">Featured Products</h2>
+
+    <!-- Product Cards -->
+    <div class="flex flex-col md:flex-row justify-center max-w-6xl mx-auto flex-wrap">
+        <!-- Product 1 -->
+        <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md" >
+            <img src="../images/c08154694.png" alt="Product 1" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">HP EliteBook 840 14 inch G9 Notebook PC Wolf Pro Security Edition</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 350,000.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md" >
+            <img src="../images/c08051016.png" alt="Product 2" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">Omen 25L Gaming Desktop</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 603,720.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md">
+            <img src="../images/c05206362.png" alt="Product 3" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">HP Z3700 Gold Wireless Mouse</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 18,576.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md" >
+            <img src="../images/61oO0m+gHvL._AC_SY300_SX300_.jpg" alt="Product 4" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">External Hard Drive 1TB</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 46,440.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+        <!-- Product 5 -->
+        <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md" >
+            <img src="../images/61oO0m+gHvL._AC_SY300_SX300_.jpg" alt="Product 4" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">External Hard Drive 1TB</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 46,440.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+        <!-- Product 6 -->
+        <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md" >
+            <img src="../images/61oO0m+gHvL._AC_SY300_SX300_.jpg" alt="Product 4" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">External Hard Drive 1TB</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 46,440.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+         <!-- Product 7-->
+         <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md">
+            <img src="../images/61oO0m+gHvL._AC_SY300_SX300_.jpg" alt="Product 4" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">External Hard Drive 1TB</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 46,440.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+         <!-- Product 8-->
+         <div class="max-w-xs border border-gray-300 p-5 m-2 text-center bg-white rounded-lg shadow-md">
+            <img src="../images/61oO0m+gHvL._AC_SY300_SX300_.jpg" alt="power bank" class="h-auto max-w-full mb-3">
+            <h3 class="text-xl font-bold mt-4">External Hard Drive 1TB</h3>
+            <p class="text-gray-700 mb-4">&#x20A6; 4.00</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Add to Cart</button>
+        </div>
+    </div>
+</section>
+<!--Testimonial-->
+<section class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
+            <p class="text-gray-500">Read testimonials from few our satisfied customers</p>
+        </div>
+        
+        <div class="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
+            <!-- Testimonial 1 -->
+            <div class="max-w-sm mx-auto bg-white p-6 rounded-lg shadow-lg">
+                <img src="../images/pexels-jay-rane-943235.jpg" alt="Client 1" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">John Doe</h3>
+                <p class="text-gray-600 mb-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="max-w-sm mx-auto bg-white p-6 rounded-lg shadow-lg">
+                <img src="../images/pexels-christina-morillo-1181424.jpg" alt="Client 2" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Jane Doe</h3>
+                <p class="text-gray-600 mb-6">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="max-w-sm mx-auto bg-white p-6 rounded-lg shadow-lg">
+                <img src="../images/pexels-shvets-production-7533347.jpg" alt="Client 3" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">James Smith</h3>
+                <p class="text-gray-600 mb-6">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="max-w-sm mx-auto bg-white p-6 rounded-lg shadow-lg">
+                <img src="../images/pexels-shvets-production-7533347.jpg" alt="Client 3" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">James Smith</h3>
+                <p class="text-gray-600 mb-6">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+            </div>
+<!-- Testimonial 5 -->
+<div class="max-w-sm mx-auto bg-white p-6 rounded-lg shadow-lg">
+    <img src="../images/pexels-shvets-production-7533347.jpg" alt="Client 3" class="w-20 h-20 rounded-full mx-auto mb-4">
+    <h3 class="text-xl font-bold text-gray-800 mb-2">James Smith</h3>
+    <p class="text-gray-600 mb-6">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+</div>
+        </div>
+    </div>
+</section>
+<!--CTA section-->
+<section class="bg-blue-900 text-white py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+        <p class="text-lg mb-8">Contact us today for all your computer needs.</p>
+        <a href="contactus.html" class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 px-6 rounded-full transition duration-300">Contact Us</a>
+    </div>
+</section>
+<!--Footer Section-->
+<footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2021-2023 Newton's Enterprise. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="index.html" class="text-white hover:text-gray-300 mx-2">Home</a>
+            <a href="service.html" class="text-white hover:text-gray-300 mx-2">Services</a>
+            <a href="product.html" class="text-white hover:text-gray-300 mx-2">Products</a>
+            <a href="about.html" class="text-white hover:text-gray-300 mx-2">About Us</a>
+            <a href="contactus.html" class="text-white hover:text-gray-300 mx-2">Contact Us</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
